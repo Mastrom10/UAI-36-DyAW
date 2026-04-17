@@ -54,12 +54,13 @@ Seleccionar una noticia actual de un diario online, replicar **título, subtítu
 | Artículo original | [Enlace a la nota en BBC Mundo](https://www.bbc.com/mundo/articles/cz0e9l8vg7jo) |
 | Carpeta de entrega | `Clase 2 - Actividad` |
 | Réplica en HTML (práctica) | [`noticia.html`](./Clase%202%20-%20Actividad/noticia.html) |
+| Imágenes de la noticia (locales) | [`Clase 2 - Actividad/img/`](./Clase%202%20-%20Actividad/img/) |
 
 El HTML resume y organiza fragmentos del artículo con fines educativos; al pie del artículo figura la atribución y el enlace al original.
 
 ### Etiquetas semánticas usadas en `Clase 2 - Actividad/noticia.html`
 
-`header`, `main`, `article`, `section`, `aside`, `nav`, `footer`, `figure`, `figcaption`, `h1`, `h2`, `p`, `ol`, `li`, `blockquote`, `cite`, `time`, `abbr`, `a`, `strong`, `em`, `small`, `code`, `span`.
+`header`, `main`, `article`, `section`, `aside`, `nav`, `footer`, `figure`, `figcaption`, `img`, `h1`, `h2`, `p`, `ol`, `li`, `blockquote`, `cite`, `time`, `abbr`, `a`, `strong`, `em`, `small`, `code`, `span`.
 
 ### Flujo Git pedido en la consigna (PS02)
 
