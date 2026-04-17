@@ -52,11 +52,12 @@ Seleccionar una noticia actual de un diario online, replicar **título, subtítu
 | Título | *Por qué Costa Rica se convirtió en el tercer país de América Latina más endeudado con el FMI después de Argentina y Ecuador* |
 | Fecha de publicación | 16 de abril de 2026 |
 | Artículo original | [Enlace a la nota en BBC Mundo](https://www.bbc.com/mundo/articles/cz0e9l8vg7jo) |
-| Réplica en HTML (práctica) | [`noticia.html`](./noticia.html) |
+| Carpeta de entrega | `Clase 2 - Actividad` |
+| Réplica en HTML (práctica) | [`noticia.html`](./Clase%202%20-%20Actividad/noticia.html) |
 
 El HTML resume y organiza fragmentos del artículo con fines educativos; al pie del artículo figura la atribución y el enlace al original.
 
-### Etiquetas semánticas usadas en `noticia.html`
+### Etiquetas semánticas usadas en `Clase 2 - Actividad/noticia.html`
 
 `header`, `main`, `article`, `section`, `aside`, `nav`, `footer`, `figure`, `figcaption`, `h1`, `h2`, `p`, `ol`, `li`, `blockquote`, `cite`, `time`, `abbr`, `a`, `strong`, `em`, `small`, `code`, `span`.
 
@@ -75,7 +76,7 @@ INICIO
   ELEGIR noticia actual de un diario online (URL y fuente)
   EXTRAER título, subtítulos, párrafos y datos (fecha, autor)
   PLANIFICAR estructura semántica (article, section, aside, etc.)
-  CREAR archivo noticia.html con esas etiquetas
+  CREAR carpeta "Clase 2 - Actividad" y archivo noticia.html con esas etiquetas
   ABRIR noticia.html en el navegador y revisar jerarquía de títulos
   GIT: crear rama desde main → commit → push → PR → merge a main
 FIN
