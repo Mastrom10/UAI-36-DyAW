@@ -67,3 +67,16 @@ El HTML resume y organiza fragmentos del artículo con fines educativos; al pie 
 3. `git push` de la rama y abrir una **Pull Request** hacia `main`.
 4. Revisar la PR en GitHub y hacer **merge** a `main`.
 5. Entregar en UAI Ultra el **enlace al repositorio**: `https://github.com/Mastrom10/UAI-36-DyAW`
+
+### Pseudocódigo (diseño conceptual — RA1)
+
+```
+INICIO
+  ELEGIR noticia actual de un diario online (URL y fuente)
+  EXTRAER título, subtítulos, párrafos y datos (fecha, autor)
+  PLANIFICAR estructura semántica (article, section, aside, etc.)
+  CREAR archivo noticia.html con esas etiquetas
+  ABRIR noticia.html en el navegador y revisar jerarquía de títulos
+  GIT: crear rama desde main → commit → push → PR → merge a main
+FIN
+```
