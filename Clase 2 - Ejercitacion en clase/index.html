@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primera página HTML5</title>
+</head>
+<body style="background-color:#e8f0f7; font-family:Georgia,serif;">
+
+  <h1 style="color:#0d3b66; text-align:center;">Hola, mundo web</h1>
+
+  <p style="text-align:justify;">
+    Esta es una página <strong style="color:#c05621;">muy sencilla</strong> para practicar HTML5 en clase.
+    Acá probamos párrafos, saltos de línea y enlaces.
+  </p>
+
+  <p style="background-color:#d4edda;">
+    Si querés aprender más sobre HTML, podés entrar al sitio de Mozilla Developer:
+    <br>
+    <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noopener noreferrer" style="color:#0b5ed7;">MDN — Documentación de HTML</a>
+  </p>
+
+  <h2 style="color:#0d3b66;">Tabla de repaso</h2>
+
+  <table border="1" cellpadding="8" cellspacing="0" style="background-color:#fff;">
+    <caption>Algunas etiquetas que estamos usando</caption>
+    <thead>
+      <tr>
+        <th scope="col">Etiqueta</th>
+        <th scope="col">Sirve para</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>h1, h2</td>
+        <td>Títulos (jerarquía de la página)</td>
+      </tr>
+      <tr>
+        <td>p, br</td>
+        <td>Párrafos y saltos de línea</td>
+      </tr>
+      <tr>
+        <td>a</td>
+        <td>Enlaces (hipervínculos)</td>
+      </tr>
+      <tr>
+        <td>img</td>
+        <td>Insertar imágenes</td>
+      </tr>
+      <tr>
+        <td>table, tr, th, td</td>
+        <td>Tablas: filas, encabezados y celdas</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 style="color:#5c4d00;">Una imagen que bajé de internet</h2>
+
+  <p style="text-align:right;">
+    La foto está guardada en la misma carpeta que este archivo
+    (<code style="color:#a31515;">foto-clase.jpg</code>).
+  </p>
+
+  <p style="text-align:center;">
+    <img src="foto-clase.jpg" alt="Imagen aleatoria de ejemplo para la clase" width="400" height="250" style="border:2px solid #1a4d8c;">
+  </p>
+
+  <p style="text-align:center;">
+    Otro enlace útil para principiantes:
+    <br>
+    <a href="https://es.wikipedia.org/wiki/HTML" style="color:#6f42c1;">Wikipedia: HTML</a>
+  </p>
+
+  <h2 style="color:#155724; text-align:right;">Algo divertido en un iframe</h2>
+
+  <p style="text-align:justify;">
+    Acá hay un <strong style="color:#c05621;">mapa interactivo</strong> (podés arrastrar y acercar).
+    OpenStreetMap suele andar bien dentro de un <code>iframe</code>.
+  </p>
+
+  <p style="text-align:center;">
+    Si el recuadro falla, abrí el mapa acá:
+    <a href="https://www.openstreetmap.org/#map=12/-34.60/-58.38" target="_blank" rel="noopener noreferrer" style="color:#0b5ed7;">OpenStreetMap (Buenos Aires)</a>
+  </p>
+
+  <figure style="text-align:center;">
+    <iframe
+      width="560"
+      height="420"
+      style="border:0;"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=-58.85,-34.80,-58.25,-34.45&amp;layer=mapnik"
+      title="Mapa interactivo — región de Buenos Aires (OpenStreetMap)">
+    </iframe>
+  </figure>
+
+  <p style="text-align:right; color:#555;">
+    Fin de la práctica. <br> ¡Éxitos con la materia!
+  </p>
+
+</body>
+</html>
