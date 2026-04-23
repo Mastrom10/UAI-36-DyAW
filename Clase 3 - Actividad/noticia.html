@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticia de actualidad + Formulario de suscripción</title>
+</head>
+<body style="max-width: 860px; margin: 0 auto; padding: 16px; font-family: Arial, sans-serif; line-height: 1.5; color: #222;">
+  <header>
+    <p><strong>Diario de Tecnología</strong></p>
+    <nav aria-label="Navegación principal">
+      <a href="#noticia">Noticia</a> |
+      <a href="#relacionadas">Notas relacionadas</a> |
+      <a href="#suscripcion">Suscribirse</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <article id="noticia">
+      <header>
+        <h1>La energía solar alcanzó un nuevo récord de generación en América Latina</h1>
+        <p>
+          Por <a href="https://www.bbc.com/mundo" target="_blank" rel="noopener noreferrer">Redacción internacional</a>
+          · <time datetime="2026-04-20">20 de abril de 2026</time>
+        </p>
+      </header>
+
+      <figure style="margin: 1rem 0;">
+        <img
+          src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80"
+          alt="Paneles solares en un campo al atardecer"
+          style="max-width: 100%; height: auto; border-radius: 8px;"
+        >
+        <figcaption>Varios países de la región ampliaron su infraestructura de energías renovables.</figcaption>
+      </figure>
+
+      <section aria-labelledby="contexto">
+        <h2 id="contexto">Contexto</h2>
+        <p>
+          Durante el primer trimestre de 2026, distintos reportes del sector energético mostraron un incremento
+          sostenido de la capacidad instalada de energía solar en América Latina. Este crecimiento se explica por
+          la baja del costo de los paneles, nuevas políticas de incentivo y un mayor interés en reducir emisiones.
+        </p>
+      </section>
+
+      <section aria-labelledby="impacto">
+        <h2 id="impacto">Impacto en la región</h2>
+        <p>
+          Especialistas señalan que la transición energética puede mejorar la seguridad del suministro eléctrico y,
+          al mismo tiempo, generar nuevos puestos de trabajo calificados en instalación, mantenimiento y desarrollo
+          de infraestructura.
+        </p>
+        <blockquote>
+          <p>
+            "La expansión de renovables no solo responde al clima: también es una estrategia de competitividad
+            económica para los próximos años".
+          </p>
+          <footer>— Informe de mercado energético regional</footer>
+        </blockquote>
+      </section>
+    </article>
+
+    <aside id="relacionadas" aria-labelledby="tit-relacionadas" style="background: #f4f6f8; padding: 12px; border-radius: 8px; margin-top: 24px;">
+      <h2 id="tit-relacionadas">Notas relacionadas</h2>
+      <nav aria-label="Enlaces de noticias relacionadas">
+        <ul>
+          <li><a href="https://www.bbc.com/mundo" target="_blank" rel="noopener noreferrer">Panorama de innovación energética</a></li>
+          <li><a href="https://www.argentina.gob.ar/energia" target="_blank" rel="noopener noreferrer">Programas públicos de transición</a></li>
+          <li><a href="https://www.iea.org/" target="_blank" rel="noopener noreferrer">Datos globales de energía (IEA)</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <section id="suscripcion" aria-labelledby="tit-suscripcion" style="margin-top: 24px;">
+      <h2 id="tit-suscripcion">Formulario de suscripción</h2>
+      <p>Completá tus datos para recibir novedades semanales.</p>
+
+      <form action="#" method="post">
+        <p>
+          <label for="nombre">Nombre y apellido</label><br>
+          <input id="nombre" name="nombre" type="text" placeholder="Ej: Juan Pérez" required>
+        </p>
+
+        <p>
+          <label for="email">Correo electrónico</label><br>
+          <input id="email" name="email" type="email" placeholder="nombre@correo.com" required>
+        </p>
+
+        <p>
+          <label for="frecuencia">Frecuencia de envío</label><br>
+          <input id="frecuencia-semanal" name="frecuencia" type="radio" value="semanal" checked>
+          <label for="frecuencia-semanal">Semanal</label>
+          <input id="frecuencia-mensual" name="frecuencia" type="radio" value="mensual">
+          <label for="frecuencia-mensual">Mensual</label>
+        </p>
+
+        <p>
+          <input id="terminos" name="terminos" type="checkbox" required>
+          <label for="terminos">Acepto términos y condiciones</label>
+        </p>
+
+        <button type="submit">Suscribirme</button>
+      </form>
+    </section>
+  </main>
+
+  <footer style="margin-top: 24px;">
+    <hr>
+    <p><small>Trabajo práctico Clase 3 - Desarrollo y Arquitecturas Web.</small></p>
+  </footer>
+</body>
+</html>
