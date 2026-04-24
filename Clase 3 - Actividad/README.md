@@ -12,7 +12,7 @@
 
 ## Archivos
 
-- `noticia.html`: resolución principal.
+- `index.html`: resolución principal.
 - `serve.py`: servidor estático local.
 
 ## Ejecución local
@@ -21,4 +21,4 @@
 python3 serve.py
 ```
 
-Luego abrir: `http://127.0.0.1:8081/noticia.html`
+Luego abrir: `http://127.0.0.1:8081/index.html`
