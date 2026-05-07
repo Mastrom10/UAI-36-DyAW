@@ -1,0 +1,222 @@
+/* TP1 — Selectores y layout (réplica aproximada BBC News Mundo) */
+
+:root {
+  --bbc-red: #bb1919;
+  --text: #202022;
+  --text-muted: #545658;
+  --border: #e6e8ea;
+  --link: #1167a8;
+  --page-bg: #ffffff;
+  --article-max: 38rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--page-bg);
+}
+
+/* Encabezado de marca (similar a barra BBC) */
+.site-header {
+  background: var(--bbc-red);
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+.site-header .container {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.site-header a.brand {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+
+.site-header a.brand:hover,
+.site-header a.brand:focus-visible {
+  text-decoration: underline;
+}
+
+.site-header .sub {
+  display: block;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  opacity: 0.95;
+  margin-top: 0.125rem;
+}
+
+/* Contenedor principal */
+.page-wrap {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1rem 1rem 3rem;
+}
+
+/* Artículo: columna estrecha tipo diario */
+article.news-article {
+  max-width: var(--article-max);
+  margin: 0 auto;
+}
+
+/* Cabecera del artículo */
+.news-article > header.article-head {
+  margin-bottom: 1.25rem;
+}
+
+.news-article h1.headline {
+  margin: 0 0 1rem;
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.byline {
+  margin: 0 0 0.5rem;
+  font-size: 0.9375rem;
+}
+
+.byline .author-name {
+  font-weight: 700;
+}
+
+.byline .author-role {
+  color: var(--text-muted);
+}
+
+.article-meta {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.article-meta time {
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* Cuerpo tipográfico */
+.article-body > p {
+  margin: 0 0 1rem;
+}
+
+.article-body > p:last-child {
+  margin-bottom: 0;
+}
+
+.article-body a {
+  color: var(--link);
+  text-underline-offset: 0.15em;
+}
+
+.article-body a:hover,
+.article-body a:focus-visible {
+  text-decoration-thickness: 2px;
+}
+
+/* Secciones con jerarquía */
+.article-body section.content-section {
+  margin-top: 1.75rem;
+}
+
+.article-body h2.section-title {
+  margin: 0 0 0.75rem;
+  font-size: 1.375rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Figuras e imágenes */
+.article-body figure.article-media {
+  margin: 1.5rem 0;
+}
+
+.article-body figure.article-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.article-body figure.article-media figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  color: var(--text-muted);
+}
+
+.article-body figure.article-media figcaption .credit {
+  font-weight: 700;
+  color: var(--text);
+}
+
+/* Pie del artículo y notas */
+.article-footnotes {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+.article-footnotes p {
+  margin: 0 0 0.75rem;
+}
+
+.article-footnotes p:last-child {
+  margin-bottom: 0;
+}
+
+/* Contenido relacionado */
+aside.related {
+  margin-top: 2rem;
+  padding: 1rem 1.125rem;
+  background: #f6f8fa;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+aside.related h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.125rem;
+}
+
+aside.related ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+aside.related li {
+  margin-bottom: 0.5rem;
+}
+
+aside.related li:last-child {
+  margin-bottom: 0;
+}
+
+/* Pie de página del sitio académico */
+.site-footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.site-footer code {
+  font-size: 0.9em;
+}

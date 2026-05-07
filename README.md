@@ -82,3 +82,35 @@ INICIO
   GIT: crear rama desde main → commit → push → PR → merge a main
 FIN
 ```
+
+---
+
+## Problemática Semanal 04 — Clase 4 Actividad (TP1: selectores y layout)
+
+### Objetivo
+
+Seleccionar una noticia actual de un diario online, maquetarla en HTML semántico y aplicar estilos en un **archivo CSS externo** para lograr una apariencia similar a la original. Documentar en README las **URLs de los artículos originales** para comparación.
+
+### Noticia y archivos
+
+| Concepto | Detalle |
+| -------- | ------- |
+| Medio | [BBC News Mundo](https://www.bbc.com/mundo) |
+| Título | *Los efectos para el cuerpo de pasar muchas horas sentado y cómo puedes combatirlos* |
+| Artículo original | [https://www.bbc.com/mundo/articles/c9v3y03x3rmo](https://www.bbc.com/mundo/articles/c9v3y03x3rmo) |
+| Carpeta de entrega | `Clase 4 - Actividad` |
+| Réplica HTML | [`Clase 4 - Actividad/noticia.html`](./Clase%204%20-%20Actividad/noticia.html) |
+| Hoja de estilos | [`Clase 4 - Actividad/styles.css`](./Clase%204%20-%20Actividad/styles.css) |
+| Detalle de la entrega | [`Clase 4 - Actividad/README.md`](./Clase%204%20-%20Actividad/README.md) |
+
+Las imágenes enlazan los mismos activos públicos de BBC (iChef) que la nota original, para facilitar la comparación visual.
+
+### Enlace en GitHub (entrega)
+
+Tras `git push`, la URL del HTML en el repositorio remoto tendrá esta forma (ajustar rama o carpeta si corresponde):
+
+`https://github.com/Mastrom10/UAI-36-DyAW/blob/main/Clase%204%20-%20Actividad/noticia.html`
+
+Vista “raw” para abrir en el navegador (útil para probar sin clonar):
+
+`https://raw.githubusercontent.com/Mastrom10/UAI-36-DyAW/main/Clase%204%20-%20Actividad/noticia.html`
